@@ -65,12 +65,28 @@ O   |
      |
 =========''']
 
-
-# Classe
+  
 class Hangman:
+  
+     def __init__(self):
+         print("\nBem vindo ao jogo da forca!")
+         print("Adivinhe a palavra abaixo:\n")
+
+
+     def limpa_tela():
+     
+     # Windows
+          if name == 'nt':
+               _ = system('cls')
+     
+     # Mac ou Linux
+          else:
+               _ = system('clear')
 
 	# Método Construtor
-
+     def begin_game():
+          
+     
 	# Método para adivinhar a letra
 	
 	# Método para verificar se o jogo terminou
